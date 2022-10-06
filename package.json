@@ -32,32 +32,32 @@
     "url": "git+ssh://git@github.com/natlibfi/eslint-config-melinda-frontend.git"
   },
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./src/index.js",
   "engines": {
-		"node": ">=14"
-	},
+    "node": ">=14"
+  },
   "publishConfig": {
-		"access": "public"
-	},
+    "access": "public"
+  },
   "scripts": {
-		"lint:dev": "eslint --fix src",
-		"lint": "eslint src",
-		"test": "npm run lint"
-	},
+    "lint:dev": "eslint --fix src",
+    "lint": "eslint src",
+    "test": "npm run lint"
+  },
   "dependencies": {
-		"eslint-plugin-functional": "^4.2.2"
-	},
-	"devDependencies": {
-		"eslint": "^8.24.0"
-	},
-	"peerDependencies": {
-		"eslint": "^8.24.0"
-	},
-	"eslintConfig": {
-		"env": {
-			"node": true
-		},
-		"extends": "eslint:recommended"
-	}
+    "eslint-plugin-functional": "^4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.24.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": "eslint:recommended"
+  }
 }
