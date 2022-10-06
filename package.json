@@ -1,0 +1,63 @@
+{
+  "name": "@natlibfi/eslint-config-melinda-frontend",
+  "description": "ESLint config for Melinda's frontend applications",
+  "author": {
+    "name": "The National Library of Finland"
+  },
+  "keywords": [
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "jscs",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint"
+  ],
+  "homepage": "https://github.com/natlibfi/eslint-config-melinda-frontend#readme",
+  "bugs": {
+    "url": "https://github.com/natlibfi/eslint-config-melinda-frontend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/natlibfi/eslint-config-melinda-frontend.git"
+  },
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "engines": {
+		"node": ">=14"
+	},
+  "publishConfig": {
+		"access": "public"
+	},
+  "scripts": {
+		"lint:dev": "eslint --fix src",
+		"lint": "eslint src",
+		"test": "npm run lint"
+	},
+  "dependencies": {
+		"eslint-plugin-functional": "^4.2.2"
+	},
+	"devDependencies": {
+		"eslint": "^8.24.0"
+	},
+	"peerDependencies": {
+		"eslint": "^8.24.0"
+	},
+	"eslintConfig": {
+		"env": {
+			"node": true
+		},
+		"extends": "eslint:recommended"
+	}
+}
